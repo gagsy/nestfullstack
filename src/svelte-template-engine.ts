@@ -1,7 +1,10 @@
 import 'svelte/register';
 
+
 export function svelteTemplateEngine(filePath: string, options: any, next) {
     const Component = require(filePath).default;
+    //Turbolinks.start();
+    
     let { html, head, css } = Component.render(options);
     if(css.code) {
       head =`${head}<style>${css.code}</style>`

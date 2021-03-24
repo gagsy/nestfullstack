@@ -15,7 +15,5 @@
   h1 {
     color: purple;
   }
-  :global(body) {
-    background-color: pink;
-  }
+  
 </style>
