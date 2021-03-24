@@ -1,6 +1,6 @@
 <!-- views/Layout.svelte -->
 <script>
-  import Nav from './Nav.svelte';
+    import Nav from './Nav.svelte';
 </script>
 <!doctype html>
 <html lang="en">
